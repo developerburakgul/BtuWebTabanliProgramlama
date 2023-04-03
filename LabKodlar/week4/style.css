@@ -1,0 +1,66 @@
+h1 {
+  font-family: "Lucida Sans", Verdana, sans-serif;
+}
+
+p {
+  color: #06fa63;
+  background-color: #021e8d;
+}
+
+.kisayazi {
+  color: rgb(61, 19, 231);
+  background-color: #fa062b;
+}
+
+#ozelyazi {
+  background-color: pink;
+}
+
+/*
+div ,p{
+  width: 50%;
+  background-color: rgb(14, 1, 12) !important;
+} 
+*/
+/*
+div p{
+  width: 50%;
+  background-color: rgb(14, 1, 12) !important;
+}
+*/
+
+/* divin 1 altındaki p için bunu yap
+div > p{
+  width: 50%;
+  background-color: rgb(14, 1, 12) !important;
+}
+*/
+
+/* divden sonra gelen ilk p için yap demek
+div + p{
+  width: 50%;
+  background-color: rgb(14, 1, 12) !important;
+}
+*/
+
+/* bir divi takip eden tüm p ler için yap demek */
+div ~ p {
+  width: 50%;
+  background-color: rgb(14, 1, 12) !;
+  /*margin: 50px,10px; /* 50 yazan yer yukarı ve aşağı ,10 yazan yer ise sağ ve sol*/
+  /* margin: 50px,40px,30px,20px; /* saat yönünde gider yukarısı 50 ,sağ 40,aşağı 30 ,sol taraf ise 20 px olur*/
+  /*  margin: 50px; önce her tarafı 50 yap daha sonra ise sol tarafı 15 yap demek
+    margin-left: 15px; */
+  margin: 20px;
+  padding: 10px;
+}
+
+p:hover {
+  /* üstüne gelindiğinde yapılacak şeyleri yazarız*/
+  background-color: #fa062b;
+}
+
+p:active {
+  /* tıklandığında yapılacak şeyleri yazarız*/
+  background-color:#00a33f;
+}
